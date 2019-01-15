@@ -1,14 +1,13 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
+import Navbar from './Navbar';
 
-class EcomApp extends Component{
-render(){
-    return(
-        <div>
-            <h1>
-                hello from react
-            </h1>
-        </div>
-    )
-}
+class EcomApp extends Component {
+    render() {
+        return (
+            <div>  
+                <Navbar />
+            </div>
+        )
+    }
 }
 export default EcomApp;

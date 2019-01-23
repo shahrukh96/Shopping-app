@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
 
+import {Provider} from "react-redux";
+import store from './store'
 import EcomApp from "./components/EcomApp";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Provider store={store}>
+
     <EcomApp />
-  </BrowserRouter>,
+
+  </Provider>,
   document.getElementById("root")
 );

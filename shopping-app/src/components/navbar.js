@@ -19,6 +19,9 @@ class Navbar extends Component {
               <Link to="/Category">Category</Link>
             </li>
             <li>
+              <Link to="/Product">Product</Link>
+            </li>
+            <li>
               <a href=" ">Contact Us</a>
             </li>
           </ul>
